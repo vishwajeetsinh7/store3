@@ -26,6 +26,12 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "svg.modal__toggle-open.icon.icon-search {width: 100%; height: 100%; stroke: white;}",
+        "ul.list-menu.list-menu--inline {display: flex; justify-content: space-between;}",
+        "svg {max-width: 30px; }",
+        "nav.header__inline-menu {width: 100%; max-width: 700px;}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",

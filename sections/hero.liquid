@@ -1,0 +1,82 @@
+<style>
+    .hero-container { 
+        background-color: #EFDFD4;
+        width: 100%;
+    }
+    .hero-container , .hero-container * { 
+        margin: 0; 
+        padding: 0; 
+    }
+    .hero-wrapper { 
+        max-width: 840px; 
+        margin: auto; 
+        padding: 60px 0; 
+        position: relative; 
+    }
+    .hero-image { 
+        text-align: right; 
+    }
+    .hero-image  img{ 
+        max-width: 70%; 
+    }
+
+    .hero-content { 
+        background: #B18064; 
+        max-width: 322px; 
+        border-radius: 12px; 
+        position: absolute; 
+        top: 20%; 
+    }
+
+    .content-wrapper { 
+    }
+
+    .hero-content h1 { 
+        font-size: 40px; 
+        color: #D9C397; 
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .hero-content p { 
+        color: white;
+        font-size: 16px;
+        max-width: 264px;
+        padding-left: 10px;
+        padding-bottom: 35px;
+        margin-top: 20px; 
+        line-height: 1.5; 
+    }
+
+</style>
+<section class="hero-container">
+    <div class="hero-wrapper page-width">
+        <div class="hero-image">
+            <img src="https://cdn.shopify.com/s/files/1/0780/8414/5448/files/Group_25.png?v=1687786167" >
+        </div>
+        <div class="hero-content">
+            <div class="content-wrapper">
+                <h1>Vayas Sutra
+                Anti Ageing</h1>
+                <p>Dates and Litchi create a potent blend that nourishes, hydrates, and revitalizes the skin, promoting a more youthful and radiant complexion. Rich in antioxidants, vitamins and minerals this cream aids in collagen production, and is carefully crafted to combat the signs of aging, resulting in
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Testimonials",
+    "settings": [
+    ], 
+    "presets": [ 
+        {
+            "name": "Hero Section", 
+            "settings" : { 
+            } 
+        }
+    ]
+  }
+
+{% endschema %}

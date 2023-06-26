@@ -51,6 +51,12 @@
     or section.settings.enable_follow_on_shop
   -%}
     {%- unless only_empty_brand -%}
+      {% comment %} this is custom coode {% endcomment %}
+      <div class="footer__content-top page-width"><div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet  scroll-trigger animate--slide-in" data-cascade=""><div class="footer-block grid__item scroll-trigger animate--slide-in" data-cascade="" style="--animation-order: 1;"><div class="footer-block__details-content footer-block-image "><div class="footer-block__image-wrapper" style="max-width: min(100%, 100px);">
+        <img srcset="//cdn.shopify.com/s/files/1/0780/8414/5448/files/Group_14.png?v=1687759963&amp;width=100, //cdn.shopify.com/s/files/1/0780/8414/5448/files/Group_14.png?v=1687759963&amp;width=200 2x" src="//cdn.shopify.com/s/files/1/0780/8414/5448/files/Group_14.png?v=1687759963&amp;width=760" alt="" loading="lazy" width="235" height="91">
+      </div></div></div><div class="footer-block grid__item scroll-trigger animate--slide-in" data-cascade="" style="--animation-order: 2;"><div class="footer-block__brand-info"><div class="rte"><p>Embrace the art of Ayurvedic skincare and<br>reveal your inner radiance</p></div></div></div></div><div class="footer-block--newsletter scroll-trigger animate--slide-in scroll-trigger--offscreen" data-cascade=""></div>
+      </div>
+      {% comment %} this is custom coode end {% endcomment %}
       <div class="footer__content-top page-width">
         {%- if section.blocks.size > 0 -%}
           {%- liquid
@@ -248,6 +254,7 @@
       </div>
     {%- endunless -%}
   {%- endif -%}
+ 
 
   <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"

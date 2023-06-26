@@ -1,0 +1,62 @@
+<style>
+    .testimonial {
+        width: 100%;
+        max-width: 750px;
+        margin: auto;
+        margin-top: 60px; 
+    }
+
+    .testimonial p { 
+        margin-top: 13px;
+        color: black;
+        font-size: 28px;
+    }
+    .testimonial svg, .testimonial h1 {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .testimonial svg {
+        margin-top: 30px;
+    }
+</style>
+<div class="testimonial">
+    <h1>{{section.settings.title}}</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="44.77" height="32.57" viewBox="0 0 44.77 32.57">
+            <g id="Group_9" data-name="Group 9" transform="translate(-517.615 -3233.471)">
+              <g id="Group_8" data-name="Group 8">
+                <path id="Path_3" data-name="Path 3" d="M546.1,3234.364v-.893a16.305,16.305,0,0,1,16.277,15.839h.011v16.731H545.651V3249.31h15.828A15.406,15.406,0,0,0,546.1,3234.364Z" fill="#b18064"/>
+                <path id="Path_4" data-name="Path 4" d="M533.443,3249.31a15.406,15.406,0,0,0-15.381-14.946v-.893a16.3,16.3,0,0,1,16.274,15.839h.013v16.731H517.615V3249.31Z" fill="#b18064"/>
+              </g>
+            </g>
+        </svg>
+        <p>{{section.settings.paragraph}}</p>
+    </div>
+
+{% schema %}
+{
+    "name": "Testimonials",
+    "settings": [
+      {
+        "id": "title",
+        "type": "text",
+        "label": "Title", 
+        "default": "Testimonials"
+      },
+      {
+        "id": "paragraph",
+        "type": "text",
+        "label": "Paragraph", 
+        "default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ."
+      }
+    ], 
+    "presets": [ 
+        {
+            "name": "Tesstimonial", 
+            "settings" : { 
+            } 
+        }
+    ]
+  }
+
+{% endschema %}
