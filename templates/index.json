@@ -1,0 +1,338 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}",
+        "ul {justify-content: space-between;}",
+        "ul li {max-width: 253px;}",
+        ".card--standard > .card__content {background: #b18064; border-radius: 12px; margin: auto; margin-top: 20px; text-align: center;}",
+        ".card__information h3 a {color: white; \/* font-weight: bold; *\/ font-size: 17px;}",
+        ".price {text-align: center;}",
+        "span.price-item.price-item--regular {color: white; \/* font-weight: bold; *\/ font-size: 17px;}",
+        ".card__information {padding: 5px 0;}",
+        ".card__media {border-radius: 12px;}",
+        ".card__inner {background: transparent;}"
+      ],
+      "settings": {
+        "title": "All Time Favourites",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    },
+    "9a51af8a-09ab-4e83-9fa7-9e9ef80f501c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19599294005544__9a51af8a-09ab-4e83-9fa7-9e9ef80f501c-1687760945338b8c12-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "0aeecd34-09ac-4574-b87c-cb77a6558813": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "d821a0d6-23bf-4bd4-9b1f-99e217b6deca": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "dc2deb9c-7592-4e5b-99e0-6a2578d988f6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "76e899b9-a249-4668-aa39-56901d2f5979": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19599294005544__9a51af8a-09ab-4e83-9fa7-9e9ef80f501c-1687760945338b8c12-0",
+        "0aeecd34-09ac-4574-b87c-cb77a6558813",
+        "d821a0d6-23bf-4bd4-9b1f-99e217b6deca",
+        "dc2deb9c-7592-4e5b-99e0-6a2578d988f6",
+        "76e899b9-a249-4668-aa39-56901d2f5979"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
+    "ada20798-2b88-4418-919e-084874fe554e": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19599294005544__ada20798-2b88-4418-919e-084874fe554e-168776171369df4157-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beauty-routine-finder-1"
+          }
+        },
+        "template--19599294005544__ada20798-2b88-4418-919e-084874fe554e-168776171369df4157-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crafted-creams"
+          }
+        }
+      },
+      "block_order": [
+        "template--19599294005544__ada20798-2b88-4418-919e-084874fe554e-168776171369df4157-0",
+        "template--19599294005544__ada20798-2b88-4418-919e-084874fe554e-168776171369df4157-1"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; width: 100%; text-align: center;}",
+        "h3 {font-size: 30px; color: #e5d0ac;}",
+        ".collection-list-wrapper {margin: auto; padding: 0; \/* max-width: 100%; *\/}",
+        ".card__content {position: absolute; \/* background: yellow; *\/ top: 35%; text-align: center;}",
+        ".card__information {width: 70%; background: #723c23b3; margin: auto; padding: 36px 0;}",
+        "span.icon-wrap {display: none;}"
+      ],
+      "settings": {
+        "title": "A Unique Solution Crafted Specially For You",
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "04041424-fc26-46b8-9e13-ce6106bc7e17": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19599294005544__04041424-fc26-46b8-9e13-ce6106bc7e17-1687762627b94da508-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean, Cruelty Free Beauty",
+            "heading_size": "h1"
+          }
+        },
+        "template--19599294005544__04041424-fc26-46b8-9e13-ce6106bc7e17-1687762627b94da508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Ayurvedic standard for beauty was always pure, fresh, seasonal and natural. Across all our products, we control the conception, formulation, manufacturing and sale of our Ayurvedic products, thereby ensuring quality & purity across all pillars. We use this philosophy to produce our line of treatments and our certifications attest to this.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19599294005544__04041424-fc26-46b8-9e13-ce6106bc7e17-1687762627b94da508-0",
+        "template--19599294005544__04041424-fc26-46b8-9e13-ce6106bc7e17-1687762627b94da508-1"
+      ],
+      "custom_css": [
+        "p {text-align: left; margin-top: 30px; line-height: 1.3;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19599294005544__f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1-16877628643de5c099-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_42.png",
+            "title": "Our Ideology",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "template--19599294005544__f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1-16877628643de5c099-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_44.png",
+            "title": "Our Ingredients",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19599294005544__f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1-16877628643de5c099-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_46.png",
+            "title": "Our products",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19599294005544__f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1-16877628643de5c099-0",
+        "template--19599294005544__f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1-16877628643de5c099-1",
+        "template--19599294005544__f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1-16877628643de5c099-2"
+      ],
+      "custom_css": [
+        ".multicolumn-card.content-container {background: transparent !important;}",
+        ".multicolumn-card__info {text-align: center; position: absolute; top: 70%; width: 86%; left: 25px;}",
+        ".multicolumn-card__info h3 {font-size: 30px; background: #723c12b3; color: #e5d0ac;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "9a51af8a-09ab-4e83-9fa7-9e9ef80f501c",
+    "ada20798-2b88-4418-919e-084874fe554e",
+    "04041424-fc26-46b8-9e13-ce6106bc7e17",
+    "f0aefb28-3df3-4d6d-8a1c-cd37009ae2b1"
+  ]
+}
